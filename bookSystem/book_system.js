@@ -12,8 +12,24 @@ function addBook(){
             authorName:authorName,
             bookDescription:bookDescription,
             pagesNumber: pagesNumber
+
+            
         };
+        
         books.push(book);
+
+        // var btn = document.createElement("BUTTON");
+        // var t = document.createTextNode("Delete");
+    
+        // btn.setAttribute("style","color:red;font-size:23px");
+    
+        // btn.appendChild(t);
+        // document.body.appendChild(btn);
+    
+        // btn.setAttribute("onclick", alert("clicked"));
+
+
+
         showBooks();
         clearInputs();
     
